@@ -24,14 +24,14 @@
         {
             "language": "javascript",
             "source": [
-                ""
+                "function equalizeArray(arr) {\n    let n = arr.length;\n    let freq = new Map();\n           for(let i = 0; i < n; i++){\n               if(freq.has(arr[i])){\n                   freq.set(arr[i], freq.get(arr[i]) + 1)\n               }else{\n                   freq.set(arr[i], 1)\n               }\n           }\n           let max_freq = Number.MIN_SAFE_INTEGER;\n           for(let entry of freq)\n               max_freq = Math.max(max_freq, entry[1]);\n        \n         \n           return n - max_freq ;\n    \n       }\n"
             ],
             "outputs": []
         },
         {
-            "language": "markdown",
+            "language": "javascript",
             "source": [
-                "### **Optional**:"
+                ""
             ],
             "outputs": []
         },
@@ -45,7 +45,7 @@
         {
             "language": "javascript",
             "source": [
-                ""
+                "let totalCost = p;\nlet gameCount = 0;\n\nwhile(totalCost <= s){\n  p = p - d;\n  if(p <= m){\n    totalCost = totalCost + m;\n    gameCount++;\n  }else{\n    totalCost = totalCost + p;\n    gameCount++;\n  }\n  \n}\n\nreturn gameCount;"
             ],
             "outputs": []
         },
@@ -59,7 +59,7 @@
         {
             "language": "javascript",
             "source": [
-                ""
+                "let lower = Math.ceil(Math.sqrt(a));\n    let upper = Math.floor(Math.sqrt(b));\n\n    return lower > upper ? 0 : upper - lower + 1;"
             ],
             "outputs": []
         }
