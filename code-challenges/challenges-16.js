@@ -26,6 +26,8 @@ const reverseString =(string) => string.split("").reverse().join("");
 // Ex :-
 // Input <= ["hello ^_^ ","Hi ^_^" ,"What's up ^_-" ,"lol"] , Output => ["hello ^_^ ","Hi ^_^" ] ;
 
+//
+
 const detectFace = (arr) => arr.filter((word) => word.includes('^_^'));
 // -------------------------------------------------------------------------------------------------------
 
@@ -38,6 +40,9 @@ const detectFace = (arr) => arr.filter((word) => word.includes('^_^'));
 //
 // Ex :-
 // Input <= "coding" output =>"cdn"
+
+
+//
 
 const eveCharacter = (str) => {
     //write your code here ...
