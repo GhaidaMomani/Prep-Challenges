@@ -1,4 +1,5 @@
-"use strict";
+'use strict';
+
 
 // Combine methods
 
@@ -11,8 +12,10 @@
 // Input <= "Hello";
 // Output => "olleH";
 
-const reverseString = (string) => string.split("").reverse().join("");
+const reverseString =(string) => string.split("").reverse().join("");
 // -------------------------------------------------------------------------------------------------------
+
+
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 02:
@@ -23,10 +26,9 @@ const reverseString = (string) => string.split("").reverse().join("");
 // Ex :-
 // Input <= ["hello ^_^ ","Hi ^_^" ,"What's up ^_-" ,"lol"] , Output => ["hello ^_^ ","Hi ^_^" ] ;
 
-const detectFace = (arr) =>
-  arr.filter((word) => word.includes('^_^'));
- 
+const detectFace = (arr) => arr.filter((word) => word.includes('^_^'));
 // -------------------------------------------------------------------------------------------------------
+
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 03:
@@ -38,9 +40,10 @@ const detectFace = (arr) =>
 // Input <= "coding" output =>"cdn"
 
 const eveCharacter = (str) => {
-  //write your code here ...
-};
+    //write your code here ...
+}
 // -------------------------------------------------------------------------------------------------------
+
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 04
@@ -56,9 +59,10 @@ const eveCharacter = (str) => {
 // Output:
 // [["grilled chicken"], ["baked chicken"], ["fried chicken"]];
 
+
 const chickenGradients = (arr) => {
-  //write your code here ...
-};
+    //write your code here ...
+}
 // -------------------------------------------------------------------------------------------------------
 
 module.exports = { reverseString, detectFace, eveCharacter, chickenGradients };
